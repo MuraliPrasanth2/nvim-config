@@ -22,7 +22,7 @@ vim.opt.clipboard = "unnamedplus"
 -- This will allow the block selection to move past the last character in the line.
 vim.opt.virtualedit = "block"
 
--- This will show all the lines where the text is being changed in the bottom of the screen with a split window. Very helpful when the changes is in multiple files.
+-- This will show all the lines where the text is being changed in the bottom of the screen within a split window. Very helpful when the changes is in multiple files.
 vim.opt.inccommand = "split"
 
 -- This will ignore the case while searching.
