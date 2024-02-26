@@ -30,7 +30,7 @@ require("lazy").setup({{
         config = function()
             local configs = require("nvim-treesitter.configs")
 
-print"working"            configs.setup({
+            configs.setup({
 
                 ensure_installed = { "c", "lua", "vim", "vimdoc", "query", "elixir", "heex", "javascript", "html" },
 
