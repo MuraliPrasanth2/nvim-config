@@ -3,6 +3,7 @@
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+vim.keymap.set("n", "<C-a>", "ggVG", { noremap = true })
 -- vim.api.nvim_set_keymap('', '<Space>', '<Nop>', { noremap = true, silent = true})
 
 -- vim.opt is an interface to access the vim options from lua script.
